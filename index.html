@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+</head>
+
+<body>
+    <header><h1>Contact Form</h1></header>
+
+    <form action="./thankyou.html" method="post">
+        <fieldset>
+            <legend>User imformation</legend>
+            <p>
+                <label for="firstname">First name:</label>
+                <br>
+                <input type="text" name="firstname" id="firstname">
+            </p>
+            <p>
+                <label for="lastname">Last name:</label>
+                <br>
+                <input type="text" name="lastname" id="lastname">
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" name="email" id="email">
+            </p>
+            <p>
+            
+                <label for="phonenumber">Phone number:</label>
+                <br>
+                <input type="number" name="phonenumber" id="phonenumber">
+            </p>
+
+            <p> About:<br>
+                <select>
+                    <option>About:</option>
+                    <option>Career opportunity</option>
+                    <option>Business proposal</option>
+                    <option>General query</option>
+                    <option>Complaint</option>
+                </select>
+            </p>
+
+            
+            <p>Message:<br>
+                <textarea></textarea>
+            </p>
+        </fieldset>
+        <p>
+            <button type="submit" value="submit">Submit</button>
+        </p>
+    </form>
+</body>
+
+</html>
